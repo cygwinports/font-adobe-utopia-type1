@@ -1,4 +1,4 @@
 category: X11
-requires: mkfontdir mkfontscale fontconfig xorg-encodings
-sdesc: "Xorg Adobe Utopia Type1 fonts"
-ldesc: "Xorg Adobe Utopia Type1 fonts"
+requires: mkfontdir mkfontscale fontconfig font-encodings
+sdesc: "X.Org Adobe Utopia Type1 fonts"
+ldesc: "X.Org Adobe Utopia Type1 fonts"
