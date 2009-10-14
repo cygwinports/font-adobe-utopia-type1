@@ -3,12 +3,14 @@ font-adobe-utopia-type1
 X.Org Adobe Utopia Type1 fonts
 
 Build requirements:
-  cygwin-1.5.25-15
-  cygport-0.4.2-1
-  gawk-3.1.6-1
-  make-3.81-1
-  mkfontdir-1.0.2-1
-  mkfontscale-1.0.5-1
+  cygwin-1.7.0-62
+  cygport-0.9.10-1
+  font-util-1.1.1-1
+  gawk-3.1.7-1
+  make-3.81-2
+  mkfontdir-1.0.5-1
+  mkfontscale-1.0.7-1
+  pkg-config-0.23b-10
   sed-4.1.5-2
 
 Canonical website:
@@ -20,36 +22,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack font-adobe-utopia-type1-1.0.1-X-src.tar.bz2
+  unpack font-adobe-utopia-type1-1.0.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./font-adobe-utopia-type1-1.0.1-X.cygport all
+  cygport ./font-adobe-utopia-type1-1.0.2-X.cygport all
 
 This will create:
-  /usr/src/font-adobe-utopia-type1-1.0.1-X-src.tar.bz2
-  /usr/src/font-adobe-utopia-type1-1.0.1-X.tar.bz2
+  /usr/src/font-adobe-utopia-type1-1.0.2-X-src.tar.bz2
+  /usr/src/font-adobe-utopia-type1-1.0.2-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /etc/postinstall/font-adobe-utopia-type1.sh
-  /usr/share/doc/font-adobe-utopia-type1-1.0.1/COPYING
-  /usr/share/doc/font-adobe-utopia-type1-1.0.1/ChangeLog
-  /usr/share/doc/font-adobe-utopia-type1-1.0.1/README
-  /usr/share/fonts/Type1/UTBI____.afm
-  /usr/share/fonts/Type1/UTBI____.pfa
-  /usr/share/fonts/Type1/UTB_____.afm
-  /usr/share/fonts/Type1/UTB_____.pfa
-  /usr/share/fonts/Type1/UTI_____.afm
-  /usr/share/fonts/Type1/UTI_____.pfa
-  /usr/share/fonts/Type1/UTRG____.afm
-  /usr/share/fonts/Type1/UTRG____.pfa
-
-------------------
-
 Port Notes:
+
+----- version 1.0.2-1 -----
+Version bump for X11R7.5.
 
 ----- version 1.0.1-1 -----
 Initial Cygwin release of modular X11.
